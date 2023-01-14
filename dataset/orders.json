@@ -1,0 +1,14 @@
+{
+    "orderNo" : 100,
+    "orderDate" : "01/10/2023",
+    "orderStatus" : "R",
+    "orderTotal" : 1159.80,
+    "shippingAddr" : "Etobicoke M9C3Y1",
+    "billingAddr" : "Etobicoke M9C3Y1",
+    "paymentMethod" : "Visa",
+    "orderdetail" : [
+      {"item": 4103994, "desc":  "Laminate flooring", "quantity":  20, "price":  57.99},
+      {"item": 4103995, "desc":  "Vinyl flooring", "quantity":  5, "price":  60.99},
+      {"item": 4103996, "desc":  "Hardwood flooring", "quantity":  5, "price":  300.99}
+    ]
+}
