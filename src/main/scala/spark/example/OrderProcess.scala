@@ -80,6 +80,7 @@ object OrderProcess extends Serializable {
     //This is a fix for Scala 2.11
     //import scala.collection.JavaConverters._
     //props.asScala.foreach(kv => sparkAppConf.set(kv._1, kv._2))
+    //test
     sparkAppConf
   }
 }
