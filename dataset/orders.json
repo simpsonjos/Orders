@@ -1,4 +1,6 @@
 {
+  "orders" : [
+    {
     "orderNo" : 100,
     "orderDate" : "01/10/2023",
     "orderStatus" : "R",
@@ -11,4 +13,33 @@
       {"item": 4103995, "desc":  "Vinyl flooring", "quantity":  5, "price":  60.99},
       {"item": 4103996, "desc":  "Hardwood flooring", "quantity":  5, "price":  300.99}
     ]
+    },
+
+    {
+    "orderNo" : 101,
+    "orderDate" : "01/09/2023",
+    "orderStatus" : "R",
+    "orderTotal" : 500.80,
+    "shippingAddr" : "Etobicoke M9C3Y1",
+    "billingAddr" : "Etobicoke M9C3Y1",
+    "paymentMethod" : "Master",
+    "orderdetail" : [
+      {"item": 1590718, "desc":  "Diamond Earrings", "quantity":  1, "price":  449.99}
+    ]
+    },
+
+    {
+      "orderNo" : 102,
+      "orderDate" : "01/09/2023",
+      "orderStatus" : "R",
+      "orderTotal" : 2977.96,
+      "shippingAddr" : "Etobicoke M9C3Y1",
+      "billingAddr" : "Etobicoke M9C3Y1",
+      "paymentMethod" : "Master",
+      "orderdetail" : [
+        {"item": 9004108, "desc":  "LG Washer", "quantity":  1, "price":  1194.99},
+        {"item": 9004109, "desc":  "LG Dryer", "quantity":  1, "price":  1444.99}
+      ]
+    }
+  ]
 }
